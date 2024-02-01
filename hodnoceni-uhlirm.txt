@@ -1,0 +1,31 @@
+1. Pojmenování identifikátorů:
+- Identifikátory jsou přiměřeně pojmenované. Například třída `SeznamPojistencu` a její metody jasně popisují svou funkcionalitu.
+- Názvy proměnných jsou přijatelné, ale je možné ještě více zdůraznit jejich účel. Například `jmeno` a `prijmeni` by mohly být pojmenovány explicitněji, např. `jmenoPojistence` a `prijmeniPojistence`.
+
+2. Dodržení principů SRP a SoC:
+- Principy SRP (Single Responsibility Principle) a SoC (Separation of Concerns) jsou dodrženy na úrovni tříd. Třídy mají jasně definovanou odpovědnost.
+- Uživatelské rozhraní a práce s daty jsou odděleny.
+
+3. Vhodné výběry datových typů:
+- Výběry datových typů jsou vhodné. Například používání `String` pro jména a čísla je rozumné.
+
+4. Správné formátování kódu:
+- Odsazení a formátování kódu jsou většinou správné. Je doporučeno zachovat jednotný styl, například používání stejného odsazení (počet mezer) ve všech souborech.
+
+5. Minimalizace duplicitního kódu a absence nekonečných cyklů:
+- Duplicitní kód je minimální, ale v některých metodách může dojít ke zbytečnému opakování výpisu hlavičky. To by mohlo být zjednodušeno. Volání ´evidence.pokracovani();´ by mělo být jen jednou, a to za samotným ´switch´.
+- V souboru `Main.java` se používá nový způsob switch/case syntaxe, který byl zaveden v Java 12, což je v pořádku. 
+
+6. Validace vstupních dat a ošetření neočekávaných vstupů:
+- Kód by měl obsahovat více validací vstupních dat, zejména při získávání věku a telefonního čísla. Kontrola, zda jsou zadaná čísla nebo zda jsou věk alespoň nezáporný, by měla být provedena.
+
+7. Logičnost a přiměřená složitost algoritmů:
+- Metody mají přiměřenou délku a jsou relativně srozumitelné. 
+
+8. Přítomnost a kvalita komentářů:
+- Komentáře by mohly být užitečné, zejména tam, kde je složitější logika nebo tam, kde by se mohlo zdát, že je něco neintuitivního.
+
+9. Celkové hodnocení:
+- Kód je dobře strukturovaný a je jasné, že autor dbal na oddělení business logiky a uživatelského vstupu a výstupu. Přestože existují oblasti pro zlepšení, celkově lze říci, že student práci zpracoval na úrovni junior programátora. Odbourání drobných chyb by mohlo přinést vylepšení.
+
+Doporučujeme případné výtky v kódu opravit, abyste jej mohli pak prezentovat budoucímu zaměstnavateli v co nejlepší kvalitě. Pokud byste potřebovali s čímkoli pomoci, naplánujte si s námi konzultaci, rádi vám poradíme!
